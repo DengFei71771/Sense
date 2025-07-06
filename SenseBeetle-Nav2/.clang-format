@@ -1,0 +1,5 @@
+---
+Language: Cpp
+BasedOnStyle: google
+
+ContinuationIndentWidth: 2

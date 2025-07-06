@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c638509971bdccf9a376.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "sensebeetle_interfaces__py",
+					"jsonFile" : "directory-sensebeetle_interfaces__py-c15d3a1f24d6c57acf64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sunrise/sensebeetle2/build/sensebeetle_interfaces/sensebeetle_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sensebeetle_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sensebeetle_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sensebeetle_interfaces_egg-1f9b3154eb09e2c70d5e.json",
+					"name" : "ament_cmake_python_build_sensebeetle_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sensebeetle_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sensebeetle_interfaces-f36f253764c72ab5a4f9.json",
+					"name" : "ament_cmake_python_copy_sensebeetle_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces-8fc03699553944085308.json",
+					"name" : "sensebeetle_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__cpp-0eccafc618be2b123e85.json",
+					"name" : "sensebeetle_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sensebeetle_interfaces__py::@4e9e41bb11450afa1b96",
+					"jsonFile" : "target-sensebeetle_interfaces__py-6869b329ed04f5d2a532.json",
+					"name" : "sensebeetle_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_generator_c-4b917f17cf6a5c777b99.json",
+					"name" : "sensebeetle_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_generator_py-622719a45f7f56eb7501.json",
+					"name" : "sensebeetle_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_c-1f2640fac5ed691a857a.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_c__pyext-4d51baf85982c42abf26.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_cpp-68dcf8631d22adf99dee.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_fastrtps_c-2b12b573d57d582d0c0c.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext-7429fe59fe5a2099c3a3.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp-3280f66b56ad38697051.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_introspection_c-480c68621f12520cc3a7.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext-a4251b4cbd3520541d10.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces__rosidl_typesupport_introspection_cpp-f01c17984f3b7edf4f43.json",
+					"name" : "sensebeetle_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensebeetle_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensebeetle_interfaces_uninstall-8e50c8c7bad4bcf55f21.json",
+					"name" : "sensebeetle_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a472e2695e4a2d5895d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sunrise/sensebeetle2/build/sensebeetle_interfaces",
+		"source" : "/home/sunrise/sensebeetle2/src/sensebeetle_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

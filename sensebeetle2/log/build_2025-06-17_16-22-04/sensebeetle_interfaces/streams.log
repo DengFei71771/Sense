@@ -1,0 +1,164 @@
+[0.047s] Invoking command in '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/sensebeetle_interfaces -- -j8 -l8
+[0.304s] [  2%] Built target sensebeetle_interfaces__cpp
+[0.310s] [ 12%] Built target sensebeetle_interfaces__rosidl_generator_c
+[0.323s] [ 12%] Built target ament_cmake_python_copy_sensebeetle_interfaces
+[0.365s] [ 33%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_cpp
+[0.366s] [ 33%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.368s] [ 43%] Built target sensebeetle_interfaces__rosidl_typesupport_cpp
+[0.373s] [ 53%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c
+[0.380s] [ 64%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c
+[0.385s] [ 74%] Built target sensebeetle_interfaces__rosidl_typesupport_c
+[0.424s] [ 74%] Built target sensebeetle_interfaces
+[0.463s] [ 76%] Built target sensebeetle_interfaces__py
+[0.512s] [ 84%] Built target sensebeetle_interfaces__rosidl_generator_py
+[0.561s] [100%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.561s] [100%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.562s] [100%] Built target sensebeetle_interfaces__rosidl_typesupport_c__pyext
+[1.924s] running egg_info
+[1.929s] writing sensebeetle_interfaces.egg-info/PKG-INFO
+[1.930s] writing dependency_links to sensebeetle_interfaces.egg-info/dependency_links.txt
+[1.930s] writing top-level names to sensebeetle_interfaces.egg-info/top_level.txt
+[1.944s] reading manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'
+[1.948s] writing manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'
+[2.134s] [100%] Built target ament_cmake_python_build_sensebeetle_interfaces_egg
+[2.200s] Invoked command in '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/sensebeetle_interfaces -- -j8 -l8
+[2.408s] Invoking command in '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/sunrise/.local/bin/cmake --install /home/sunrise/sensebeetle2/build/sensebeetle_interfaces
+[2.567s] -- Install configuration: ""
+[2.568s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/rosidl_interfaces/sensebeetle_interfaces
+[2.569s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces
+[2.570s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg
+[2.570s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.571s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.h
+[2.572s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail
+[2.572s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.h
+[2.573s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.c
+[2.574s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.h
+[2.574s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.c
+[2.575s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.h
+[2.576s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.h
+[2.576s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.h
+[2.577s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.h
+[2.578s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.h
+[2.578s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.sh
+[2.579s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.dsv
+[2.579s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_c.so
+[2.580s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces
+[2.581s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg
+[2.581s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.582s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail
+[2.582s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_c.h
+[2.583s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_c.h
+[2.583s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.584s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces
+[2.585s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg
+[2.585s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.586s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail
+[2.586s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_c.h
+[2.587s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.c
+[2.587s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.c
+[2.588s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_c.h
+[2.589s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so
+[2.589s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_c.so
+[2.590s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces
+[2.590s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg
+[2.591s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.hpp
+[2.591s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.hpp
+[2.592s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail
+[2.592s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.hpp
+[2.593s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__traits.hpp
+[2.593s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.hpp
+[2.594s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.hpp
+[2.594s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__traits.hpp
+[2.595s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__builder.hpp
+[2.595s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__builder.hpp
+[2.596s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.hpp
+[2.596s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.597s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces
+[2.597s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg
+[2.597s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail
+[2.598s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dds_fastrtps
+[2.598s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_cpp.hpp
+[2.599s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.599s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.600s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.600s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces
+[2.601s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg
+[2.602s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail
+[2.602s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_cpp.hpp
+[2.603s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.cpp
+[2.603s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.cpp
+[2.604s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_cpp.hpp
+[2.605s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.605s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_cpp.so
+[2.606s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.sh
+[2.606s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.dsv
+[2.607s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info
+[2.607s] -- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.608s] -- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.609s] -- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.609s] -- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.610s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces
+[2.610s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.611s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/libsensebeetle_interfaces__rosidl_generator_py.so
+[2.611s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.612s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg
+[2.613s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data_s.c
+[2.613s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data.py
+[2.614s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/__init__.py
+[2.614s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel.py
+[2.615s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel_s.c
+[2.615s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_c.c
+[2.616s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/__init__.py
+[2.616s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.617s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.617s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.775s] Listing '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces'...
+[2.776s] Listing '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg'...
+[2.818s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.819s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.820s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.821s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_py.so
+[2.822s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.idl
+[2.823s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.idl
+[2.824s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.msg
+[2.824s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.msg
+[2.825s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/package_run_dependencies/sensebeetle_interfaces
+[2.826s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/parent_prefix_path/sensebeetle_interfaces
+[2.826s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.sh
+[2.827s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.dsv
+[2.827s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.sh
+[2.828s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.dsv
+[2.829s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.bash
+[2.829s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.sh
+[2.830s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.zsh
+[2.830s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.dsv
+[2.831s] -- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.dsv
+[2.832s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/packages/sensebeetle_interfaces
+[2.832s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport.cmake
+[2.833s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.834s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.835s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.835s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.836s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.836s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport.cmake
+[2.837s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.837s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cppExport.cmake
+[2.838s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.838s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.839s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.839s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.840s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport.cmake
+[2.840s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.841s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport.cmake
+[2.841s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.841s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.842s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.842s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.843s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.843s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.844s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.844s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.845s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig.cmake
+[2.845s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig-version.cmake
+[2.846s] -- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.xml
+[2.881s] Invoked command in '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/sunrise/.local/bin/cmake --install /home/sunrise/sensebeetle2/build/sensebeetle_interfaces

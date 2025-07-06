@@ -1,0 +1,80 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sensebeetle_interfaces/msg/Dr16DbusData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module sensebeetle_interfaces {
+  module msg {
+    module Dr16DbusData_Constants {
+      const uint8 UP = 1;
+      const uint8 DOWN = 2;
+      const uint8 MID = 3;
+    };
+    @verbatim (language="comment", text=
+      "Dr16DbusData.msg")
+    struct Dr16DbusData {
+      std_msgs::msg::Header header;
+
+      double ch_l_x;
+
+      double ch_l_y;
+
+      double ch_r_x;
+
+      double ch_r_y;
+
+      uint8 s_l;
+
+      uint8 s_r;
+
+      double wheel;
+
+      @verbatim (language="comment", text=
+        "mouse")
+      double m_x;
+
+      double m_y;
+
+      double m_z;
+
+      boolean p_l;
+
+      boolean p_r;
+
+      @verbatim (language="comment", text=
+        "key board")
+      boolean key_w;
+
+      boolean key_s;
+
+      boolean key_a;
+
+      boolean key_d;
+
+      boolean key_shift;
+
+      boolean key_ctrl;
+
+      boolean key_q;
+
+      boolean key_e;
+
+      boolean key_r;
+
+      boolean key_f;
+
+      boolean key_g;
+
+      boolean key_z;
+
+      boolean key_x;
+
+      boolean key_c;
+
+      boolean key_v;
+
+      boolean key_b;
+    };
+  };
+};

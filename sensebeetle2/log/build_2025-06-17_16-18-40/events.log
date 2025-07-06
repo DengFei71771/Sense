@@ -1,0 +1,671 @@
+[0.000000] (-) TimerEvent: {}
+[0.002030] (sensebeetle_interfaces) JobQueued: {'identifier': 'sensebeetle_interfaces', 'dependencies': OrderedDict()}
+[0.004172] (rm_serial_driver) JobQueued: {'identifier': 'rm_serial_driver', 'dependencies': OrderedDict([('sensebeetle_interfaces', '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces')])}
+[0.005591] (sensebeetle_interfaces) JobStarted: {'identifier': 'sensebeetle_interfaces'}
+[0.061899] (sensebeetle_interfaces) JobProgress: {'identifier': 'sensebeetle_interfaces', 'progress': 'cmake'}
+[0.067892] (sensebeetle_interfaces) JobProgress: {'identifier': 'sensebeetle_interfaces', 'progress': 'build'}
+[0.071864] (sensebeetle_interfaces) Command: {'cmd': ['/home/sunrise/.local/bin/cmake', '--build', '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.30.226 8631 22'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c6ce0fa8-1740-4244-803d-b09ad2c1d538.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.30.226:10.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f1b53eafd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces'), ('SSH_CONNECTION', '192.168.30.226 8631 192.168.30.11 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/home/sunrise/Desktop/yolov11/HIK_TEF_Driver_module:/home/sunrise/Desktop/yolov11/HIK_TEF_Driver_module'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098079] (-) TimerEvent: {}
+[0.198953] (-) TimerEvent: {}
+[0.299885] (-) TimerEvent: {}
+[0.321454] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.341981] (sensebeetle_interfaces) StdoutLine: {'line': b'[  2%] Built target sensebeetle_interfaces__cpp\n'}
+[0.364925] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.365793] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.366553] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.400085] (-) TimerEvent: {}
+[0.500975] (-) TimerEvent: {}
+[0.601873] (-) TimerEvent: {}
+[0.702779] (-) TimerEvent: {}
+[0.803749] (-) TimerEvent: {}
+[0.882814] (sensebeetle_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_sensebeetle_interfaces\n'}
+[0.891295] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 12%] Built target sensebeetle_interfaces__rosidl_generator_c\n'}
+[0.893190] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 23%] Built target sensebeetle_interfaces__rosidl_typesupport_cpp\n'}
+[0.895569] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 43%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.896976] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 43%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.903928] (-) TimerEvent: {}
+[0.913210] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.914120] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.914916] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.939409] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 53%] Built target sensebeetle_interfaces__rosidl_typesupport_c\n'}
+[0.942189] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 64%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.957606] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 74%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.995309] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 74%] Built target sensebeetle_interfaces\n'}
+[1.004105] (-) TimerEvent: {}
+[1.035052] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 76%] Built target sensebeetle_interfaces__py\n'}
+[1.056079] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.097525] (sensebeetle_interfaces) StdoutLine: {'line': b'[ 84%] Built target sensebeetle_interfaces__rosidl_generator_py\n'}
+[1.104307] (-) TimerEvent: {}
+[1.118831] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.119634] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.120141] (sensebeetle_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.155125] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] Built target sensebeetle_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.156194] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] Built target sensebeetle_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.156951] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] Built target sensebeetle_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.204479] (-) TimerEvent: {}
+[1.305355] (-) TimerEvent: {}
+[1.406208] (-) TimerEvent: {}
+[1.507043] (-) TimerEvent: {}
+[1.607905] (-) TimerEvent: {}
+[1.708737] (-) TimerEvent: {}
+[1.809594] (-) TimerEvent: {}
+[1.910500] (-) TimerEvent: {}
+[2.011351] (-) TimerEvent: {}
+[2.112200] (-) TimerEvent: {}
+[2.213018] (-) TimerEvent: {}
+[2.313840] (-) TimerEvent: {}
+[2.414655] (-) TimerEvent: {}
+[2.466357] (sensebeetle_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.471400] (sensebeetle_interfaces) StdoutLine: {'line': b'writing sensebeetle_interfaces.egg-info/PKG-INFO\n'}
+[2.472524] (sensebeetle_interfaces) StdoutLine: {'line': b'writing dependency_links to sensebeetle_interfaces.egg-info/dependency_links.txt\n'}
+[2.473465] (sensebeetle_interfaces) StdoutLine: {'line': b'writing top-level names to sensebeetle_interfaces.egg-info/top_level.txt\n'}
+[2.486880] (sensebeetle_interfaces) StdoutLine: {'line': b"reading manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'\n"}
+[2.490202] (sensebeetle_interfaces) StdoutLine: {'line': b"writing manifest file 'sensebeetle_interfaces.egg-info/SOURCES.txt'\n"}
+[2.514882] (-) TimerEvent: {}
+[2.615899] (-) TimerEvent: {}
+[2.678525] (sensebeetle_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_sensebeetle_interfaces_egg\n'}
+[2.716115] (-) TimerEvent: {}
+[2.735523] (sensebeetle_interfaces) CommandEnded: {'returncode': 0}
+[2.738910] (sensebeetle_interfaces) JobProgress: {'identifier': 'sensebeetle_interfaces', 'progress': 'install'}
+[2.816288] (-) TimerEvent: {}
+[2.917231] (-) TimerEvent: {}
+[2.933955] (sensebeetle_interfaces) Command: {'cmd': ['/home/sunrise/.local/bin/cmake', '--install', '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces'], 'cwd': '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.30.226 8631 22'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c6ce0fa8-1740-4244-803d-b09ad2c1d538.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.30.226:10.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f1b53eafd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/sensebeetle2/build/sensebeetle_interfaces'), ('SSH_CONNECTION', '192.168.30.226 8631 192.168.30.11 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/home/sunrise/Desktop/yolov11/HIK_TEF_Driver_module:/home/sunrise/Desktop/yolov11/HIK_TEF_Driver_module'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.017420] (-) TimerEvent: {}
+[3.096620] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.097910] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/rosidl_interfaces/sensebeetle_interfaces\n'}
+[3.099042] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces\n'}
+[3.099655] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg\n'}
+[3.100263] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.100858] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.h\n'}
+[3.101523] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail\n'}
+[3.101990] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.h\n'}
+[3.102511] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.c\n'}
+[3.103330] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.h\n'}
+[3.104018] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.c\n'}
+[3.104539] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__functions.h\n'}
+[3.105001] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__functions.h\n'}
+[3.105455] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.h\n'}
+[3.105976] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.h\n'}
+[3.106552] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.h\n'}
+[3.107385] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.sh\n'}
+[3.108107] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/library_path.dsv\n'}
+[3.108865] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_c.so\n'}
+[3.109345] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces\n'}
+[3.109880] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg\n'}
+[3.110413] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.111184] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail\n'}
+[3.111680] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_c.h\n'}
+[3.112227] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_c.h\n'}
+[3.112701] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.113238] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces\n'}
+[3.113751] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg\n'}
+[3.114409] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.114927] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail\n'}
+[3.115471] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_c.h\n'}
+[3.116010] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.c\n'}
+[3.116554] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.c\n'}
+[3.117330] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_c.h\n'}
+[3.118378] (-) TimerEvent: {}
+[3.118908] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.119486] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_c.so\n'}
+[3.120066] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces\n'}
+[3.120563] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg\n'}
+[3.121039] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/twist_stamped_to_wheel.hpp\n'}
+[3.121509] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/dr16_dbus_data.hpp\n'}
+[3.121971] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail\n'}
+[3.122441] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.hpp\n'}
+[3.122920] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__traits.hpp\n'}
+[3.123401] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__struct.hpp\n'}
+[3.123882] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.hpp\n'}
+[3.124361] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__traits.hpp\n'}
+[3.124835] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__builder.hpp\n'}
+[3.125305] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__builder.hpp\n'}
+[3.125801] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__struct.hpp\n'}
+[3.126290] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.126765] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces\n'}
+[3.127232] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg\n'}
+[3.127788] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail\n'}
+[3.128344] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dds_fastrtps\n'}
+[3.128822] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.129297] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.129780] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.130255] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.130726] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces\n'}
+[3.131198] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg\n'}
+[3.131662] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail\n'}
+[3.132121] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.132662] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__type_support.cpp\n'}
+[3.133134] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/dr16_dbus_data__type_support.cpp\n'}
+[3.133613] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/include/sensebeetle_interfaces/sensebeetle_interfaces/msg/detail/twist_stamped_to_wheel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.134081] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.134696] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.135176] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.sh\n'}
+[3.135646] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/pythonpath.dsv\n'}
+[3.136115] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.136581] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.137046] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.137616] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.138089] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.138554] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces\n'}
+[3.139009] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.139467] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/libsensebeetle_interfaces__rosidl_generator_py.so\n'}
+[3.139960] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.140418] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg\n'}
+[3.140865] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data_s.c\n'}
+[3.141325] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_dr16_dbus_data.py\n'}
+[3.141777] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/__init__.py\n'}
+[3.142229] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel.py\n'}
+[3.142683] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg/_twist_stamped_to_wheel_s.c\n'}
+[3.143133] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.143589] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/__init__.py\n'}
+[3.144051] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.144582] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/_sensebeetle_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.145061] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.218586] (-) TimerEvent: {}
+[3.296591] (sensebeetle_interfaces) StdoutLine: {'line': b"Listing '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces'...\n"}
+[3.297643] (sensebeetle_interfaces) StdoutLine: {'line': b"Listing '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/msg'...\n"}
+[3.318823] (-) TimerEvent: {}
+[3.344190] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.345372] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.346473] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages/sensebeetle_interfaces/sensebeetle_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.347764] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib/libsensebeetle_interfaces__rosidl_generator_py.so\n'}
+[3.348683] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.idl\n'}
+[3.349606] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.idl\n'}
+[3.350473] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/TwistStampedToWheel.msg\n'}
+[3.351398] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/msg/Dr16DbusData.msg\n'}
+[3.352251] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/package_run_dependencies/sensebeetle_interfaces\n'}
+[3.352994] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/parent_prefix_path/sensebeetle_interfaces\n'}
+[3.353809] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.sh\n'}
+[3.354622] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.355643] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.sh\n'}
+[3.356675] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/environment/path.dsv\n'}
+[3.357564] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.bash\n'}
+[3.358406] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.sh\n'}
+[3.359256] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.zsh\n'}
+[3.360151] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/local_setup.dsv\n'}
+[3.361047] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.dsv\n'}
+[3.361914] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/ament_index/resource_index/packages/sensebeetle_interfaces\n'}
+[3.362579] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.363257] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.363891] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.364520] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.365211] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.365823] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.366458] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.367111] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.367860] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.368527] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.369173] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.369803] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.370428] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.371065] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.371699] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.372422] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.373039] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/export_sensebeetle_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.373657] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.374278] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.374905] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.375526] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.376143] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.376766] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.377437] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.378126] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig.cmake\n'}
+[3.378766] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/cmake/sensebeetle_interfacesConfig-version.cmake\n'}
+[3.379388] (sensebeetle_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/sensebeetle2/install/sensebeetle_interfaces/share/sensebeetle_interfaces/package.xml\n'}
+[3.407303] (sensebeetle_interfaces) CommandEnded: {'returncode': 0}
+[3.419082] (-) TimerEvent: {}
+[3.520377] (-) TimerEvent: {}
+[3.621397] (-) TimerEvent: {}
+[3.722395] (-) TimerEvent: {}
+[3.823368] (-) TimerEvent: {}
+[3.924328] (-) TimerEvent: {}
+[4.025393] (-) TimerEvent: {}
+[4.127990] (-) TimerEvent: {}
+[4.141128] (sensebeetle_interfaces) JobEnded: {'identifier': 'sensebeetle_interfaces', 'rc': 0}
+[4.147616] (rm_serial_driver) JobStarted: {'identifier': 'rm_serial_driver'}
+[4.177919] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'cmake'}
+[4.182205] (rm_serial_driver) JobProgress: {'identifier': 'rm_serial_driver', 'progress': 'build'}
+[4.183873] (rm_serial_driver) Command: {'cmd': ['/home/sunrise/.local/bin/cmake', '--build', '/home/sunrise/sensebeetle2/build/rm_serial_driver', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/sensebeetle2/build/rm_serial_driver', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.30.226 8631 22'), ('XDG_SESSION_TYPE', 'tty'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c6ce0fa8-1740-4244-803d-b09ad2c1d538.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.30.226:10.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f1b53eafd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/sensebeetle2/build/rm_serial_driver'), ('SSH_CONNECTION', '192.168.30.226 8631 192.168.30.11 22'), ('PYTHONPATH', '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/home/sunrise/Desktop/yolov11/HIK_TEF_Driver_module:/home/sunrise/Desktop/yolov11/HIK_TEF_Driver_module'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.228181] (-) TimerEvent: {}
+[4.328993] (-) TimerEvent: {}
+[4.418949] (rm_serial_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_serial_driver_node\x1b[0m\n'}
+[4.423232] (rm_serial_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_serial_driver\x1b[0m\n'}
+[4.429116] (-) TimerEvent: {}
+[4.484065] (rm_serial_driver) StdoutLine: {'line': b'[ 50%] Built target rm_serial_driver_node\n'}
+[4.529347] (-) TimerEvent: {}
+[4.533663] (rm_serial_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o\x1b[0m\n'}
+[4.629542] (-) TimerEvent: {}
+[4.730473] (-) TimerEvent: {}
+[4.831358] (-) TimerEvent: {}
+[4.932253] (-) TimerEvent: {}
+[5.033163] (-) TimerEvent: {}
+[5.134034] (-) TimerEvent: {}
+[5.234920] (-) TimerEvent: {}
+[5.335802] (-) TimerEvent: {}
+[5.436688] (-) TimerEvent: {}
+[5.537597] (-) TimerEvent: {}
+[5.638504] (-) TimerEvent: {}
+[5.739454] (-) TimerEvent: {}
+[5.840573] (-) TimerEvent: {}
+[5.941919] (-) TimerEvent: {}
+[6.043371] (-) TimerEvent: {}
+[6.144544] (-) TimerEvent: {}
+[6.245612] (-) TimerEvent: {}
+[6.346954] (-) TimerEvent: {}
+[6.447999] (-) TimerEvent: {}
+[6.549214] (-) TimerEvent: {}
+[6.650348] (-) TimerEvent: {}
+[6.751421] (-) TimerEvent: {}
+[6.852379] (-) TimerEvent: {}
+[6.953318] (-) TimerEvent: {}
+[7.054250] (-) TimerEvent: {}
+[7.155167] (-) TimerEvent: {}
+[7.256058] (-) TimerEvent: {}
+[7.356951] (-) TimerEvent: {}
+[7.457878] (-) TimerEvent: {}
+[7.558794] (-) TimerEvent: {}
+[7.659683] (-) TimerEvent: {}
+[7.760733] (-) TimerEvent: {}
+[7.862694] (-) TimerEvent: {}
+[7.964498] (-) TimerEvent: {}
+[8.065442] (-) TimerEvent: {}
+[8.166405] (-) TimerEvent: {}
+[8.267393] (-) TimerEvent: {}
+[8.368364] (-) TimerEvent: {}
+[8.469324] (-) TimerEvent: {}
+[8.570283] (-) TimerEvent: {}
+[8.671206] (-) TimerEvent: {}
+[8.772159] (-) TimerEvent: {}
+[8.873111] (-) TimerEvent: {}
+[8.974086] (-) TimerEvent: {}
+[9.075047] (-) TimerEvent: {}
+[9.175990] (-) TimerEvent: {}
+[9.276940] (-) TimerEvent: {}
+[9.377939] (-) TimerEvent: {}
+[9.478871] (-) TimerEvent: {}
+[9.579791] (-) TimerEvent: {}
+[9.680715] (-) TimerEvent: {}
+[9.781656] (-) TimerEvent: {}
+[9.882704] (-) TimerEvent: {}
+[9.983678] (-) TimerEvent: {}
+[10.084626] (-) TimerEvent: {}
+[10.185566] (-) TimerEvent: {}
+[10.286496] (-) TimerEvent: {}
+[10.387465] (-) TimerEvent: {}
+[10.488417] (-) TimerEvent: {}
+[10.589339] (-) TimerEvent: {}
+[10.690288] (-) TimerEvent: {}
+[10.791254] (-) TimerEvent: {}
+[10.892196] (-) TimerEvent: {}
+[10.993154] (-) TimerEvent: {}
+[11.094089] (-) TimerEvent: {}
+[11.195047] (-) TimerEvent: {}
+[11.295984] (-) TimerEvent: {}
+[11.396928] (-) TimerEvent: {}
+[11.497918] (-) TimerEvent: {}
+[11.598856] (-) TimerEvent: {}
+[11.699800] (-) TimerEvent: {}
+[11.800757] (-) TimerEvent: {}
+[11.901711] (-) TimerEvent: {}
+[12.002667] (-) TimerEvent: {}
+[12.103621] (-) TimerEvent: {}
+[12.204593] (-) TimerEvent: {}
+[12.305573] (-) TimerEvent: {}
+[12.406549] (-) TimerEvent: {}
+[12.507554] (-) TimerEvent: {}
+[12.608516] (-) TimerEvent: {}
+[12.709495] (-) TimerEvent: {}
+[12.810498] (-) TimerEvent: {}
+[12.911488] (-) TimerEvent: {}
+[13.012471] (-) TimerEvent: {}
+[13.113454] (-) TimerEvent: {}
+[13.214434] (-) TimerEvent: {}
+[13.315425] (-) TimerEvent: {}
+[13.416481] (-) TimerEvent: {}
+[13.517462] (-) TimerEvent: {}
+[13.618436] (-) TimerEvent: {}
+[13.719384] (-) TimerEvent: {}
+[13.820329] (-) TimerEvent: {}
+[13.921315] (-) TimerEvent: {}
+[14.022272] (-) TimerEvent: {}
+[14.123260] (-) TimerEvent: {}
+[14.224224] (-) TimerEvent: {}
+[14.325155] (-) TimerEvent: {}
+[14.426126] (-) TimerEvent: {}
+[14.527071] (-) TimerEvent: {}
+[14.628087] (-) TimerEvent: {}
+[14.729049] (-) TimerEvent: {}
+[14.830004] (-) TimerEvent: {}
+[14.931165] (-) TimerEvent: {}
+[15.032142] (-) TimerEvent: {}
+[15.133109] (-) TimerEvent: {}
+[15.234073] (-) TimerEvent: {}
+[15.335033] (-) TimerEvent: {}
+[15.435971] (-) TimerEvent: {}
+[15.536916] (-) TimerEvent: {}
+[15.637877] (-) TimerEvent: {}
+[15.738854] (-) TimerEvent: {}
+[15.839817] (-) TimerEvent: {}
+[15.940773] (-) TimerEvent: {}
+[16.041770] (-) TimerEvent: {}
+[16.142693] (-) TimerEvent: {}
+[16.243675] (-) TimerEvent: {}
+[16.344655] (-) TimerEvent: {}
+[16.445606] (-) TimerEvent: {}
+[16.546572] (-) TimerEvent: {}
+[16.647553] (-) TimerEvent: {}
+[16.748516] (-) TimerEvent: {}
+[16.849479] (-) TimerEvent: {}
+[16.950417] (-) TimerEvent: {}
+[17.051365] (-) TimerEvent: {}
+[17.152315] (-) TimerEvent: {}
+[17.253270] (-) TimerEvent: {}
+[17.354203] (-) TimerEvent: {}
+[17.455163] (-) TimerEvent: {}
+[17.556120] (-) TimerEvent: {}
+[17.657085] (-) TimerEvent: {}
+[17.758050] (-) TimerEvent: {}
+[17.859004] (-) TimerEvent: {}
+[17.959940] (-) TimerEvent: {}
+[18.060894] (-) TimerEvent: {}
+[18.161840] (-) TimerEvent: {}
+[18.262813] (-) TimerEvent: {}
+[18.363754] (-) TimerEvent: {}
+[18.464705] (-) TimerEvent: {}
+[18.565666] (-) TimerEvent: {}
+[18.666628] (-) TimerEvent: {}
+[18.767617] (-) TimerEvent: {}
+[18.868571] (-) TimerEvent: {}
+[18.969528] (-) TimerEvent: {}
+[19.070483] (-) TimerEvent: {}
+[19.171425] (-) TimerEvent: {}
+[19.272370] (-) TimerEvent: {}
+[19.373302] (-) TimerEvent: {}
+[19.474244] (-) TimerEvent: {}
+[19.575192] (-) TimerEvent: {}
+[19.676119] (-) TimerEvent: {}
+[19.777057] (-) TimerEvent: {}
+[19.878029] (-) TimerEvent: {}
+[19.979007] (-) TimerEvent: {}
+[20.079982] (-) TimerEvent: {}
+[20.180920] (-) TimerEvent: {}
+[20.281873] (-) TimerEvent: {}
+[20.382800] (-) TimerEvent: {}
+[20.483738] (-) TimerEvent: {}
+[20.584669] (-) TimerEvent: {}
+[20.685614] (-) TimerEvent: {}
+[20.786584] (-) TimerEvent: {}
+[20.887574] (-) TimerEvent: {}
+[20.988512] (-) TimerEvent: {}
+[21.089451] (-) TimerEvent: {}
+[21.190396] (-) TimerEvent: {}
+[21.291337] (-) TimerEvent: {}
+[21.392270] (-) TimerEvent: {}
+[21.493197] (-) TimerEvent: {}
+[21.594132] (-) TimerEvent: {}
+[21.695070] (-) TimerEvent: {}
+[21.796043] (-) TimerEvent: {}
+[21.896991] (-) TimerEvent: {}
+[21.997988] (-) TimerEvent: {}
+[22.098958] (-) TimerEvent: {}
+[22.199908] (-) TimerEvent: {}
+[22.300861] (-) TimerEvent: {}
+[22.401775] (-) TimerEvent: {}
+[22.502696] (-) TimerEvent: {}
+[22.603613] (-) TimerEvent: {}
+[22.704525] (-) TimerEvent: {}
+[22.805448] (-) TimerEvent: {}
+[22.906396] (-) TimerEvent: {}
+[23.007370] (-) TimerEvent: {}
+[23.108285] (-) TimerEvent: {}
+[23.209195] (-) TimerEvent: {}
+[23.310116] (-) TimerEvent: {}
+[23.411042] (-) TimerEvent: {}
+[23.511960] (-) TimerEvent: {}
+[23.612896] (-) TimerEvent: {}
+[23.713829] (-) TimerEvent: {}
+[23.814762] (-) TimerEvent: {}
+[23.915707] (-) TimerEvent: {}
+[24.016673] (-) TimerEvent: {}
+[24.117663] (-) TimerEvent: {}
+[24.218602] (-) TimerEvent: {}
+[24.319553] (-) TimerEvent: {}
+[24.420457] (-) TimerEvent: {}
+[24.521397] (-) TimerEvent: {}
+[24.622355] (-) TimerEvent: {}
+[24.723295] (-) TimerEvent: {}
+[24.824246] (-) TimerEvent: {}
+[24.925181] (-) TimerEvent: {}
+[25.026135] (-) TimerEvent: {}
+[25.060560] (rm_serial_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Krm_serial_driver::RMSerialDriver::RMSerialDriver(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.061542] (rm_serial_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:54:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkeyboard_teleop_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.062082] (rm_serial_driver) StderrLine: {'line': b'   54 |   \x1b[01;31m\x1b[Kkeyboard_teleop_sub_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::String>(\n'}
+[25.062598] (rm_serial_driver) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.063050] (rm_serial_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:56:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KkeyboardTeleopCallback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krm_serial_driver::RMSerialDriver\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.063507] (rm_serial_driver) StderrLine: {'line': b'   56 |     std::bind(&RMSerialDriver::\x1b[01;31m\x1b[KkeyboardTeleopCallback\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[25.063955] (rm_serial_driver) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.126339] (-) TimerEvent: {}
+[25.160776] (rm_serial_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[25.161748] (rm_serial_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:251:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_serial_driver::RMSerialDriver::keyboardTeleopCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.162316] (rm_serial_driver) StderrLine: {'line': b'  251 | void \x1b[01;31m\x1b[KRMSerialDriver\x1b[m\x1b[K::keyboardTeleopCallback(const std_msgs::msg::String::SharedPtr key_msg)\n'}
+[25.162809] (rm_serial_driver) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.163273] (rm_serial_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:251:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_serial_driver::RMSerialDriver::keyboardTeleopCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.163748] (rm_serial_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:21\x1b[m\x1b[K:\n'}
+[25.164228] (rm_serial_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/sensebeetle2/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:31:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_serial_driver::RMSerialDriver\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[25.164715] (rm_serial_driver) StderrLine: {'line': b'   31 | class \x1b[01;36m\x1b[KRMSerialDriver\x1b[m\x1b[K : public rclcpp::Node\n'}
+[25.165182] (rm_serial_driver) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.226548] (-) TimerEvent: {}
+[25.327521] (-) TimerEvent: {}
+[25.428434] (-) TimerEvent: {}
+[25.529372] (-) TimerEvent: {}
+[25.630325] (-) TimerEvent: {}
+[25.731320] (-) TimerEvent: {}
+[25.832284] (-) TimerEvent: {}
+[25.933217] (-) TimerEvent: {}
+[26.034175] (-) TimerEvent: {}
+[26.135140] (-) TimerEvent: {}
+[26.236183] (-) TimerEvent: {}
+[26.337390] (-) TimerEvent: {}
+[26.438468] (-) TimerEvent: {}
+[26.539628] (-) TimerEvent: {}
+[26.640741] (-) TimerEvent: {}
+[26.741823] (-) TimerEvent: {}
+[26.843079] (-) TimerEvent: {}
+[26.944214] (-) TimerEvent: {}
+[27.045324] (-) TimerEvent: {}
+[27.146473] (-) TimerEvent: {}
+[27.247603] (-) TimerEvent: {}
+[27.348886] (-) TimerEvent: {}
+[27.449935] (-) TimerEvent: {}
+[27.551096] (-) TimerEvent: {}
+[27.652185] (-) TimerEvent: {}
+[27.753332] (-) TimerEvent: {}
+[27.854530] (-) TimerEvent: {}
+[27.955617] (-) TimerEvent: {}
+[28.056899] (-) TimerEvent: {}
+[28.158115] (-) TimerEvent: {}
+[28.259400] (-) TimerEvent: {}
+[28.360564] (-) TimerEvent: {}
+[28.461673] (-) TimerEvent: {}
+[28.562687] (-) TimerEvent: {}
+[28.663646] (-) TimerEvent: {}
+[28.764612] (-) TimerEvent: {}
+[28.865604] (-) TimerEvent: {}
+[28.966570] (-) TimerEvent: {}
+[29.067519] (-) TimerEvent: {}
+[29.168464] (-) TimerEvent: {}
+[29.269423] (-) TimerEvent: {}
+[29.370366] (-) TimerEvent: {}
+[29.471308] (-) TimerEvent: {}
+[29.572247] (-) TimerEvent: {}
+[29.673186] (-) TimerEvent: {}
+[29.774120] (-) TimerEvent: {}
+[29.875093] (-) TimerEvent: {}
+[29.976036] (-) TimerEvent: {}
+[30.076988] (-) TimerEvent: {}
+[30.178029] (-) TimerEvent: {}
+[30.278960] (-) TimerEvent: {}
+[30.379888] (-) TimerEvent: {}
+[30.480824] (-) TimerEvent: {}
+[30.581753] (-) TimerEvent: {}
+[30.682693] (-) TimerEvent: {}
+[30.783629] (-) TimerEvent: {}
+[30.884561] (-) TimerEvent: {}
+[30.985521] (-) TimerEvent: {}
+[31.086463] (-) TimerEvent: {}
+[31.187436] (-) TimerEvent: {}
+[31.288380] (-) TimerEvent: {}
+[31.389333] (-) TimerEvent: {}
+[31.490275] (-) TimerEvent: {}
+[31.591215] (-) TimerEvent: {}
+[31.692157] (-) TimerEvent: {}
+[31.793100] (-) TimerEvent: {}
+[31.894057] (-) TimerEvent: {}
+[31.995016] (-) TimerEvent: {}
+[32.095952] (-) TimerEvent: {}
+[32.196880] (-) TimerEvent: {}
+[32.297855] (-) TimerEvent: {}
+[32.398778] (-) TimerEvent: {}
+[32.499722] (-) TimerEvent: {}
+[32.600668] (-) TimerEvent: {}
+[32.701616] (-) TimerEvent: {}
+[32.802555] (-) TimerEvent: {}
+[32.903511] (-) TimerEvent: {}
+[33.004466] (-) TimerEvent: {}
+[33.105406] (-) TimerEvent: {}
+[33.206357] (-) TimerEvent: {}
+[33.307344] (-) TimerEvent: {}
+[33.408301] (-) TimerEvent: {}
+[33.509239] (-) TimerEvent: {}
+[33.610193] (-) TimerEvent: {}
+[33.711136] (-) TimerEvent: {}
+[33.812101] (-) TimerEvent: {}
+[33.913069] (-) TimerEvent: {}
+[34.014024] (-) TimerEvent: {}
+[34.114976] (-) TimerEvent: {}
+[34.215926] (-) TimerEvent: {}
+[34.316851] (-) TimerEvent: {}
+[34.417805] (-) TimerEvent: {}
+[34.518751] (-) TimerEvent: {}
+[34.619702] (-) TimerEvent: {}
+[34.720637] (-) TimerEvent: {}
+[34.821589] (-) TimerEvent: {}
+[34.922518] (-) TimerEvent: {}
+[35.023461] (-) TimerEvent: {}
+[35.124409] (-) TimerEvent: {}
+[35.225383] (-) TimerEvent: {}
+[35.326334] (-) TimerEvent: {}
+[35.427307] (-) TimerEvent: {}
+[35.528238] (-) TimerEvent: {}
+[35.629202] (-) TimerEvent: {}
+[35.730460] (-) TimerEvent: {}
+[35.831548] (-) TimerEvent: {}
+[35.932733] (-) TimerEvent: {}
+[36.033925] (-) TimerEvent: {}
+[36.135103] (-) TimerEvent: {}
+[36.236238] (-) TimerEvent: {}
+[36.337423] (-) TimerEvent: {}
+[36.438533] (-) TimerEvent: {}
+[36.539683] (-) TimerEvent: {}
+[36.640642] (-) TimerEvent: {}
+[36.741585] (-) TimerEvent: {}
+[36.842531] (-) TimerEvent: {}
+[36.943452] (-) TimerEvent: {}
+[37.044367] (-) TimerEvent: {}
+[37.145289] (-) TimerEvent: {}
+[37.246210] (-) TimerEvent: {}
+[37.347125] (-) TimerEvent: {}
+[37.448072] (-) TimerEvent: {}
+[37.548982] (-) TimerEvent: {}
+[37.649904] (-) TimerEvent: {}
+[37.750820] (-) TimerEvent: {}
+[37.851731] (-) TimerEvent: {}
+[37.952638] (-) TimerEvent: {}
+[38.053551] (-) TimerEvent: {}
+[38.154470] (-) TimerEvent: {}
+[38.255371] (-) TimerEvent: {}
+[38.356283] (-) TimerEvent: {}
+[38.457178] (-) TimerEvent: {}
+[38.558127] (-) TimerEvent: {}
+[38.659050] (-) TimerEvent: {}
+[38.759966] (-) TimerEvent: {}
+[38.860868] (-) TimerEvent: {}
+[38.961790] (-) TimerEvent: {}
+[39.062711] (-) TimerEvent: {}
+[39.163617] (-) TimerEvent: {}
+[39.264532] (-) TimerEvent: {}
+[39.365461] (-) TimerEvent: {}
+[39.466393] (-) TimerEvent: {}
+[39.567366] (-) TimerEvent: {}
+[39.668292] (-) TimerEvent: {}
+[39.769230] (-) TimerEvent: {}
+[39.870189] (-) TimerEvent: {}
+[39.971138] (-) TimerEvent: {}
+[40.072072] (-) TimerEvent: {}
+[40.173033] (-) TimerEvent: {}
+[40.273985] (-) TimerEvent: {}
+[40.375030] (-) TimerEvent: {}
+[40.475976] (-) TimerEvent: {}
+[40.576938] (-) TimerEvent: {}
+[40.677930] (-) TimerEvent: {}
+[40.778868] (-) TimerEvent: {}
+[40.879812] (-) TimerEvent: {}
+[40.980766] (-) TimerEvent: {}
+[41.081728] (-) TimerEvent: {}
+[41.182689] (-) TimerEvent: {}
+[41.283637] (-) TimerEvent: {}
+[41.384567] (-) TimerEvent: {}
+[41.485515] (-) TimerEvent: {}
+[41.586462] (-) TimerEvent: {}
+[41.687442] (-) TimerEvent: {}
+[41.788391] (-) TimerEvent: {}
+[41.889358] (-) TimerEvent: {}
+[41.990298] (-) TimerEvent: {}
+[42.091250] (-) TimerEvent: {}
+[42.192255] (-) TimerEvent: {}
+[42.293209] (-) TimerEvent: {}
+[42.394164] (-) TimerEvent: {}
+[42.495116] (-) TimerEvent: {}
+[42.596063] (-) TimerEvent: {}
+[42.697010] (-) TimerEvent: {}
+[42.797953] (-) TimerEvent: {}
+[42.898858] (-) TimerEvent: {}
+[42.999771] (-) TimerEvent: {}
+[43.100679] (-) TimerEvent: {}
+[43.201593] (-) TimerEvent: {}
+[43.302507] (-) TimerEvent: {}
+[43.403438] (-) TimerEvent: {}
+[43.504367] (-) TimerEvent: {}
+[43.605269] (-) TimerEvent: {}
+[43.706171] (-) TimerEvent: {}
+[43.807079] (-) TimerEvent: {}
+[43.908028] (-) TimerEvent: {}
+[44.008941] (-) TimerEvent: {}
+[44.109957] (-) TimerEvent: {}
+[44.211019] (-) TimerEvent: {}
+[44.312109] (-) TimerEvent: {}
+[44.413272] (-) TimerEvent: {}
+[44.514375] (-) TimerEvent: {}
+[44.615485] (-) TimerEvent: {}
+[44.716615] (-) TimerEvent: {}
+[44.817793] (-) TimerEvent: {}
+[44.918865] (-) TimerEvent: {}
+[45.019883] (-) TimerEvent: {}
+[45.121067] (-) TimerEvent: {}
+[45.222140] (-) TimerEvent: {}
+[45.323354] (-) TimerEvent: {}
+[45.424423] (-) TimerEvent: {}
+[45.525491] (-) TimerEvent: {}
+[45.626653] (-) TimerEvent: {}
+[45.727847] (-) TimerEvent: {}
+[45.829219] (-) TimerEvent: {}
+[45.930279] (-) TimerEvent: {}
+[46.031380] (-) TimerEvent: {}
+[46.122974] (rm_serial_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:76: CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o] Error 1\n'}
+[46.127687] (rm_serial_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rm_serial_driver.dir/all] Error 2\n'}
+[46.129233] (rm_serial_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[46.131456] (-) TimerEvent: {}
+[46.167560] (rm_serial_driver) CommandEnded: {'returncode': 2}
+[46.232276] (-) TimerEvent: {}
+[46.260664] (rm_serial_driver) JobEnded: {'identifier': 'rm_serial_driver', 'rc': 2}
+[46.273788] (-) EventReactorShutdown: {}

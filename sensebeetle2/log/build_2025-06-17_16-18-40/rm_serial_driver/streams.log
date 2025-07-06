@@ -1,0 +1,25 @@
+[0.042s] Invoking command in '/home/sunrise/sensebeetle2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/rm_serial_driver -- -j8 -l8
+[0.272s] [35m[1mConsolidate compiler generated dependencies of target rm_serial_driver_node[0m
+[0.276s] [35m[1mConsolidate compiler generated dependencies of target rm_serial_driver[0m
+[0.337s] [ 50%] Built target rm_serial_driver_node
+[0.386s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[20.914s] [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In constructor ‘[01m[Krm_serial_driver::RMSerialDriver::RMSerialDriver(const rclcpp::NodeOptions&)[m[K’:
+[20.914s] [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:54:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kkeyboard_teleop_sub_[m[K’ was not declared in this scope
+[20.915s]    54 |   [01;31m[Kkeyboard_teleop_sub_[m[K = this->create_subscription<std_msgs::msg::String>(
+[20.915s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[20.916s] [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:56:32:[m[K [01;31m[Kerror: [m[K‘[01m[KkeyboardTeleopCallback[m[K’ is not a member of ‘[01m[Krm_serial_driver::RMSerialDriver[m[K’
+[20.916s]    56 |     std::bind(&RMSerialDriver::[01;31m[KkeyboardTeleopCallback[m[K, this, std::placeholders::_1));
+[20.917s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.014s] [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K At global scope:
+[21.014s] [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:251:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::keyboardTeleopCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[21.015s]   251 | void [01;31m[KRMSerialDriver[m[K::keyboardTeleopCallback(const std_msgs::msg::String::SharedPtr key_msg)
+[21.015s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[21.016s] [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:251:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::keyboardTeleopCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[21.016s] In file included from [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/src/rm_serial_driver.cpp:21[m[K:
+[21.017s] [01m[K/home/sunrise/sensebeetle2/src/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp:31:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rm_serial_driver::RMSerialDriver[m[K’ defined here
+[21.017s]    31 | class [01;36m[KRMSerialDriver[m[K : public rclcpp::Node
+[21.018s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[41.978s] gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:76: CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o] Error 1
+[41.981s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rm_serial_driver.dir/all] Error 2
+[41.982s] gmake: *** [Makefile:146: all] Error 2
+[42.021s] Invoked command in '/home/sunrise/sensebeetle2/build/rm_serial_driver' returned '2': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/rm_serial_driver -- -j8 -l8

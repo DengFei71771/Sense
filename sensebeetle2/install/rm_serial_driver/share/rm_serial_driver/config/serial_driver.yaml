@@ -1,0 +1,7 @@
+rm_serial_driver:
+  ros__parameters:
+    flow_control: none
+    device_name: /dev/ttyS1
+    baud_rate: 115200
+    parity: none
+    stop_bits: "1"

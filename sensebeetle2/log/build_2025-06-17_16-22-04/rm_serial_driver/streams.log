@@ -1,0 +1,42 @@
+[0.042s] Invoking command in '/home/sunrise/sensebeetle2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/rm_serial_driver -- -j8 -l8
+[0.317s] [35m[1mConsolidate compiler generated dependencies of target rm_serial_driver[0m
+[0.327s] [ 50%] Built target rm_serial_driver_node
+[0.429s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[96.924s] [100%] [32m[1mLinking CXX shared library librm_serial_driver.so[0m
+[105.486s] [100%] Built target rm_serial_driver
+[105.541s] Invoked command in '/home/sunrise/sensebeetle2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/rm_serial_driver -- -j8 -l8
+[105.547s] Invoking command in '/home/sunrise/sensebeetle2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --install /home/sunrise/sensebeetle2/build/rm_serial_driver
+[105.717s] -- Install configuration: ""
+[105.718s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node
+[105.719s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/include
+[105.719s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/include/rm_serial_driver
+[105.720s] -- Installing: /home/sunrise/sensebeetle2/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp
+[105.721s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/include/rm_serial_driver/packet.hpp
+[105.721s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh
+[105.722s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv
+[105.722s] -- Installing: /home/sunrise/sensebeetle2/install/rm_serial_driver/lib/librm_serial_driver.so
+[105.815s] -- Set runtime path of "/home/sunrise/sensebeetle2/install/rm_serial_driver/lib/librm_serial_driver.so" to ""
+[105.816s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/config
+[105.817s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml
+[105.818s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/launch
+[105.818s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py
+[105.819s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver
+[105.820s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver
+[105.820s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh
+[105.821s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv
+[105.821s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh
+[105.821s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv
+[105.822s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash
+[105.822s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh
+[105.823s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh
+[105.823s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv
+[105.824s] -- Installing: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.dsv
+[105.824s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver
+[105.825s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver
+[105.825s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[105.826s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[105.826s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[105.827s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake
+[105.827s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake
+[105.828s] -- Up-to-date: /home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.xml
+[105.864s] Invoked command in '/home/sunrise/sensebeetle2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --install /home/sunrise/sensebeetle2/build/rm_serial_driver

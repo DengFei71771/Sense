@@ -1,0 +1,12 @@
+[submodule "src/localization/Point_LIO"]
+	path = src/localization/Point_LIO
+	url = https://github.com/gaohaojia/Point_LIO
+[submodule "src/drivers/livox_ros_driver2"]
+	path = src/drivers/livox_ros_driver2
+	url = https://github.com/gaohaojia/Livox_ROS_Driver2
+[submodule "src/localization/FAST-LIVO2"]
+	path = src/localization/FAST-LIVO2
+	url = https://github.com/gaohaojia/FAST-LIVO2
+[submodule "src/localization/vikit"]
+	path = src/localization/vikit
+	url = https://github.com/gaohaojia/vikit

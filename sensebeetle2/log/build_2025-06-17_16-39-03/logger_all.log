@@ -1,0 +1,160 @@
+[0.718s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rm_serial_driver']
+[0.720s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rm_serial_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffac248e80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac3e2b90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac3e2b90>>)
+[1.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.959s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/sensebeetle2'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore_ament_install'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_pkg']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_pkg'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_meta']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_meta'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ros']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ros'
+[2.064s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_serial_driver' with type 'ros.ament_cmake' and name 'rm_serial_driver'
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extension 'ignore'
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extension 'ignore_ament_install'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extensions ['colcon_pkg']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extension 'colcon_pkg'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extensions ['colcon_meta']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extension 'colcon_meta'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extensions ['ros']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensebeetle_interfaces) by extension 'ros'
+[2.073s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensebeetle_interfaces' with type 'ros.ament_cmake' and name 'sensebeetle_interfaces'
+[2.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.283s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensebeetle_interfaces' in 'src/sensebeetle_interfaces'
+[2.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[2.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_args' from command line to 'None'
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target' from command line to 'None'
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.665s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.666s] DEBUG:colcon.colcon_core.verb:Building package 'rm_serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/sensebeetle2/build/rm_serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/sensebeetle2/install/rm_serial_driver', 'merge_install': False, 'path': '/home/sunrise/sensebeetle2/src/rm_serial_driver', 'symlink_install': False, 'test_result_base': None}
+[2.667s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.674s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/sensebeetle2/src/rm_serial_driver' with build type 'ament_cmake'
+[2.675s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/sensebeetle2/src/rm_serial_driver'
+[2.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.688s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/sensebeetle2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/rm_serial_driver -- -j8 -l8
+[90.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/sensebeetle2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --build /home/sunrise/sensebeetle2/build/rm_serial_driver -- -j8 -l8
+[90.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/sensebeetle2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --install /home/sunrise/sensebeetle2/build/rm_serial_driver
+[91.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_serial_driver)
+[91.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/sensebeetle2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/lib:/opt/MVS/lib/aarch64:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/opt/MVS/lib/aarch64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/aarch64:y/MVS/lib/aarch64:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/sensebeetle2/install/sensebeetle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/sunrise/.local/bin/cmake --install /home/sunrise/sensebeetle2/build/rm_serial_driver
+[91.296s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver' for CMake module files
+[91.303s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver' for CMake config files
+[91.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'cmake_prefix_path')
+[91.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.ps1'
+[91.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.dsv'
+[91.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.sh'
+[91.322s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/lib'
+[91.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'ld_library_path_lib')
+[91.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.ps1'
+[91.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.dsv'
+[91.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.sh'
+[91.333s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/bin'
+[91.334s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/lib/pkgconfig/rm_serial_driver.pc'
+[91.335s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/lib/python3.10/site-packages'
+[91.337s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/bin'
+[91.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.ps1'
+[91.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.dsv'
+[91.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.sh'
+[91.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.bash'
+[91.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.zsh'
+[91.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/sensebeetle2/install/rm_serial_driver/share/colcon-core/packages/rm_serial_driver)
+[91.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_serial_driver)
+[91.367s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver' for CMake module files
+[91.371s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver' for CMake config files
+[91.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'cmake_prefix_path')
+[91.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.ps1'
+[91.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.dsv'
+[91.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.sh'
+[91.383s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/lib'
+[91.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'ld_library_path_lib')
+[91.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.ps1'
+[91.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.dsv'
+[91.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.sh'
+[91.392s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/bin'
+[91.392s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/lib/pkgconfig/rm_serial_driver.pc'
+[91.393s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/lib/python3.10/site-packages'
+[91.395s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/sensebeetle2/install/rm_serial_driver/bin'
+[91.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.ps1'
+[91.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.dsv'
+[91.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.sh'
+[91.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.bash'
+[91.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/sensebeetle2/install/rm_serial_driver/share/rm_serial_driver/package.zsh'
+[91.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/sensebeetle2/install/rm_serial_driver/share/colcon-core/packages/rm_serial_driver)
+[91.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[91.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[91.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[91.415s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[91.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[91.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[91.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[91.444s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[91.452s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[91.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/sensebeetle2/install/local_setup.ps1'
+[91.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/sensebeetle2/install/_local_setup_util_ps1.py'
+[91.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/sensebeetle2/install/setup.ps1'
+[91.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/sensebeetle2/install/local_setup.sh'
+[91.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/sensebeetle2/install/_local_setup_util_sh.py'
+[91.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/sensebeetle2/install/setup.sh'
+[91.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/sensebeetle2/install/local_setup.bash'
+[91.491s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/sensebeetle2/install/setup.bash'
+[91.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/sensebeetle2/install/local_setup.zsh'
+[91.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/sensebeetle2/install/setup.zsh'
